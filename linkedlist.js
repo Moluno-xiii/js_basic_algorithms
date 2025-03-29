@@ -189,4 +189,3 @@ console.log(linkedList.toString());
 
 const divContent = document.getElementById("content");
 divContent.textContent = "Linked Lists";
-// head tail pop contains find atIndex insertAt removeat
