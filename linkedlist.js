@@ -179,13 +179,4 @@ class Node {
   }
 }
 
-const linkedList = new LinkedList();
-linkedList.append(2);
-linkedList.append(4);
-linkedList.prepend(42);
-linkedList.append(6);
-linkedList.removeAt(2);
-console.log(linkedList.toString());
-
-const divContent = document.getElementById("content");
-divContent.textContent = "Linked Lists";
+export default LinkedList;
